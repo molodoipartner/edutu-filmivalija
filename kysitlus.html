@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmimaailm - Meeleolu Küsitlus</title>
+</head>
+<body>
+
+    <h1>Milline on sinu meeleolu täna?</h1>
+    <p>Vasta viiele lihtsale küsimusele ja me soovitame sulle selleks õhtuks täiuslikku filmi!</p>
+
+    <form id="filmiklusitlus">
+
+        <!-- 1. KÜSIMUS -->
+        <h3>1. Milline tunne sind praegu kõige rohkem valdab?</h3>
+        <p>
+            <label><input type="radio" name="q1" value="F,C"> ☀️ Kerge ja rõõmus, tahaks lihtsalt nautida</label><br>
+            <label><input type="radio" name="q1" value="R,S"> 💗 Unistav ja veidi romantiline</label><br>
+            <label><input type="radio" name="q1" value="M,T"> 🌀 Rahutu ja uudishimulik, tahaks midagi põnevat</label><br>
+            <label><input type="radio" name="q1" value="H,A"> 🌙 Salapärane ja veidi sünge meeleolu</label>
+        </p>
+
+        <!-- 2. KÜSIMUS -->
+        <h3>2. Mida sa täna ühelt filmilt ootad?</h3>
+        <p>
+            <label><input type="radio" name="q2" value="C,F"> 😂 Midagi naljakat, mis paneks mind naerma</label><br>
+            <label><input type="radio" name="q2" value="S,R"> 🥺 Midagi südamlikku, mis tooks pisara silma</label><br>
+            <label><input type="radio" name="q2" value="T,H"> 🔥 Põnevust, pinget ja parajat adrenaliini</label><br>
+            <label><input type="radio" name="q2" value="M,A"> 🧠 Midagi kaasahaaravat, mis paneks mõtlema või imetlema</label>
+        </p>
+
+        <!-- 3. KÜSIMUS -->
+        <h3>3. Milline filmiõhtu kõlab sulle kõige paremini?</h3>
+        <p>
+            <label><input type="radio" name="q3" value="R,F"> 🥰 Mõnus õhtu kellegi kalliga, hea filmi seltsis</label><br>
+            <label><input type="radio" name="q3" value="S,A"> 🌧️ Vihmane õhtu, tekk ümber ja film täiesti omaette nautimiseks</label><br>
+            <label><input type="radio" name="q3" value="H,T"> 👻 Pime tuba, tuled kustus ja närvikõdi garanteeritud</label><br>
+            <label><input type="radio" name="q3" value="M,A"> 🎬 Midagi tavapärasest erinevat, mis paneks ka ajurakud tööle</label>
+        </p>
+
+        <!-- 4. KÜSIMUS -->
+        <h3>4. Kui sinu praegune tuju oleks ilm, siis milline see oleks?</h3>
+        <p>
+            <label><input type="radio" name="q4" value="F,C"> ☀️ Soe päikesepaiste ja selge taevas</label><br>
+            <label><input type="radio" name="q4" value="R,A"> 🌅 Mahe päikeseloojang ja romantiline õhkkond</label><br>
+            <label><input type="radio" name="q4" value="T,M"> ⛈️ Äikesetorm ja õhus tuntav pinge</label><br>
+            <label><input type="radio" name="q4" value="H,S"> 🌫️ Udu, hämarus ja salapärane vaikus</label>
+        </p>
+
+        <!-- 5. KÜSIMUS -->
+        <h3>5. Kuidas sa täna filmi vaataksid?</h3>
+        <p>
+            <label><input type="radio" name="q5" value="C,F"> 🍿 Sõpradega, et saaks korralikult naerda</label><br>
+            <label><input type="radio" name="q5" value="S,R"> 🥹 Üksi, et saaks rahulikult emotsioonidesse sukelduda</label><br>
+            <label><input type="radio" name="q5" value="H,T"> 😱 Sõpradega, et koos hirmust kiljuda</label><br>
+            <label><input type="radio" name="q5" value="A,M"> 🌌 Üksi, et nautida midagi erilist ja teistsugust</label>
+        </p>
+
+        <br>
+        <!-- Nupp tulemuse saamiseks -->
+        <button type="button" onclick="alert('siit arvutab süsteem sinu vastuste põhjal tulemuse...')">Vaata tulemust!</button>
+    </form>
+
+    <br><br>
+    <p><a href="index.html">← Tagasi avalehele</a></p>
+
+</body>
+</html>
