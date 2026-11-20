@@ -3,41 +3,43 @@
 }
 
 body {
-    max-width: 760px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 1rem;
-    color: #242424;
-    background: #f7f4ef;
+    color: #f5f1e8;
+    background: #101010;
     font-family: Arial, sans-serif;
     line-height: 1.5;
 }
 
 h1 {
     margin-top: 0;
-    color: #3d315b;
+    color: #f5f1e8;
+    font-family: Georgia, serif;
 }
 
-h3 {
+h2 {
     margin-top: 2rem;
-    color: #3d315b;
+    color: #f5f1e8;
+    font-family: Georgia, serif;
 }
 
 a {
-    color: #6b4bb1;
+    color: #ff7557;
 }
 
 button {
     padding: 0.7rem 1rem;
     border: 0;
-    border-radius: 0.4rem;
-    color: #fff;
-    background: #6b4bb1;
+    border-radius: 2rem;
+    color: #101010;
+    background: #ff7557;
     font-size: 1rem;
     cursor: pointer;
 }
 
 button:hover {
-    background: #563a91;
+    background: #ff947d;
 }
 
 label {
@@ -48,3 +50,17 @@ label {
 input {
     margin-right: 0.4rem;
 }
+
+.nupp {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    border-radius: 2rem;
+    background: #ff7557;
+    color: #101010;
+    text-decoration: none;
+}
+
+.nupp:hover {
+    background: #ff947d;
+}
+
