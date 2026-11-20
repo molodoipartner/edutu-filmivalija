@@ -24,6 +24,12 @@ h2 {
     font-family: Georgia, serif;
 }
 
+/* Valitud vastuse esiletõstmine */
+#filmiklusitlus label:has(input:checked) {
+    background: #302420;
+    border-color: #ff7557;
+}
+
 a {
     color: #ff7557;
 }
