@@ -205,3 +205,30 @@ body > p:first-of-type {
     margin-top: 20px;
 }
 
+/* Küsimustiku telefonivaade */
+@media (max-width: 700px) {
+    body > h1 {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    body > p:first-of-type {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    #filmiklusitlus h2 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    #filmiklusitlus label {
+        padding: 14px;
+        font-size: 14px;
+    }
+
+    #filmiklusitlus button {
+        width: 100%;
+    }
+}
+
